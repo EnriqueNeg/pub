@@ -983,9 +983,8 @@ function rellena_listas() {
 	cambia_nrn();*/
 }
 function iniciar() {
-	//document.oncontextmenu = function(){return false};
-	document.oncontextmenu = function(){navigator.clipboard.readText()};
-
+	document.oncontextmenu = function(){return false};
+	//document.oncontextmenu = function(){navigator.clipboard.readText()};
 	rellena_listas();
 	//var hoy = new Date();
 	//c1 = hoy.getFullYear() + (hoy.getMonth() + 1).toString().padStart(2, 0);
